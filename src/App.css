@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.logo h2 {
+  background: -webkit-linear-gradient(330deg, #8b5fdd, #6b47cf, #7c29ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+  overflow: hidden;
+}
+
+.charts {
+  padding: 60px 40px 397px 0px;
+  overflow: hidden;
+}
+
+.css-bshv44-MuiButtonBase-root-MuiListItem-root {
+  margin-bottom: 20px !important;
+  transition: 0.3s ease-in-out !important;
+  width: 250px !important;
+  border-radius: 60px !important;
+}
+
+
+.MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+  /* Change the background color to your desired hover effect */
+  cursor: pointer;
+  /* Optionally change the cursor on hover */
+}
+
+.images {
+  width: 100% !important;
+  max-width: 184px !important;
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+.images img {
+  width: 180px;
+  height: 250px;
+
+}
+
+.allcharts {
+  display: flex;
+  flex-wrap: wrap;
+  color: #dabc96;
+}
